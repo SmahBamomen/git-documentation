@@ -7,12 +7,31 @@
   * [1.3 Acronyms](#13-acronyms)
   * [1.4 References](#14-references)
     + [1.4.1 Internal References](#141-internal-references)
-    + [1.4.2 External References](#142-external-references)
-  * [1.5 Overview](#15-overview)
- - [Git Commands](#GitCommands)
-
+- [Git Commandse](#Git-Commands)
+  * [Git Init](#Git-Init)
+  * [Git Status](#Git-Status)
+  * [Git Add](#Git-Add)
+  * [Git Commit](#Git-Commit)
+  * [Git Branch](#Git-Branch)
+  * [Git Push](#Git-Push)
+  * [Git Pull](#Git-Pull)
+  * [Git Clone](#Git-Clone)
+ - [Branches](#Branches)
+  
 <a name="Structure"/>
-<a name="GitCommands"/>
+<a name="Git-Commands"/>
+<a name="Git-Clone"/>
+<a name="Git-Status"/>
+<a name="Git-Init"/>
+<a name="Git-Add"/>
+<a name="Git-Commit"/>
+<a name="Git-Branch"/>
+<a name="Git-Push"/>
+<a name="Git-Pull"/>
+<a name="Branches"/>
+<a name="Branches"/>
+<a name="Branches"/>
+
 
 
 ## Structure
@@ -26,10 +45,10 @@ Git is an important part of daily programming and is commonly used in the softwa
 
 
 
-#### Git Init
+### Git Init
 The `git init` command creates a new Git repository. Executing `git init` creates a `.git` subdirectory in the current working directory, which contains all of the necessary Git metadata for the new repository.
 
-#### Git Status
+### Git Status
 
 The `git status`command  lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git. Status output does not show you any information regarding the committed project history. For this, you need to use `git log`.
 
@@ -40,7 +59,7 @@ We can gather information like:
 - Whether there are files staged, unstaged or untracked
 - Whether there are files created, modified or deleted
 
-#### Git Add
+### Git Add
 Adding changes from "Working Directory" to Git's "Staging Area".
 
 - To Add a single file:
@@ -55,7 +74,7 @@ git add .
 
 **Important: The git add command doesn't change the repository and the changes are not saved until we use git commit.**
 
-#### Git Commit
+### Git Commit
 Taking snapshots to your work and moving it from the "Staging Area" to Git's "Repository"
 When Commiting, you need to write a message to explain what you did or developed
 
@@ -64,11 +83,11 @@ git commit -m "commit message"
 ```
 
 
-#### Git Branch 
+### Git Branch 
 Branches are highly important in the git world. By using branches, several developers are able to work in parallel on the same project simultaneously.
 We explained **here** in details about `git branch` including how to create, delete, and merging them.
 
-#### Git Push
+### Git Push
 
 After committing your changes, the next thing you want to do is send your changes to the remote server. Git push uploads your commits to the remote repository.
 
@@ -84,7 +103,7 @@ git push -u origin <branch_name>
 
 **Important: Git push only uploads changes that are committed.**
 
-#### Git Pull
+### Git Pull
 `git pull`is  a command used to update the local version of a repository from a remote. It does two thing:
 does two things.
 - Updates the current local working branch (currently checked out branch)
@@ -98,7 +117,7 @@ git pull
 git pull REMOTE-NAME BRANCH-NAME
 ```
 
-#### Git Clone
+### Git Clone
 The `git clone` command is used to create a copy of a specific repository or branch within a repository.
 ```
 git clone <Repository URL>  
