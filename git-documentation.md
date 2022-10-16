@@ -1,11 +1,24 @@
-[TOC]
+# Git Documentation
 
-## Git Documentation
+## Table Of Content 
+- [Structure](#Structure)
+  * [1.1 Purpose](#11-purpose)
+  * [1.2 Scope](#12-scope)
+  * [1.3 Acronyms](#13-acronyms)
+  * [1.4 References](#14-references)
+    + [1.4.1 Internal References](#141-internal-references)
+    + [1.4.2 External References](#142-external-references)
+  * [1.5 Overview](#15-overview)
+ - [Git Commands](#GitCommands)
 
-### Structure
+<a name="Structure"/>
+<a name="GitCommands"/>
 
 
-### Git Commands
+## Structure
+
+
+## Git Commands
 
 ![Git Command Flow](https://miro.medium.com/max/1400/1*69prApOy8_cZPnmRHGHQZg.png  "Git Command Flow")
 
@@ -92,7 +105,7 @@ git clone <Repository URL>
 
 ```
 
-### Branches
+## Branches
 
 
 
