@@ -127,7 +127,7 @@ git clone <Repository URL>
 ## Branches
 
 
-##Branch Basics
+## Branch Basics
 
 One feature that is provided by git is the ability to create branches in your repository be it local or remote. Branches are named pointers that point to the last commit and can also show you commits prior to it. After your very first commit, a default branch, usually named “main”, will be created.
 
@@ -138,7 +138,7 @@ If a new branch is created after commits were made in a default branch, this new
 ![](https://wac-cdn.atlassian.com/dam/jcr:a905ddfd-973a-452a-a4ae-f1dd65430027/01%20Git%20branch.svg?cdnVersion=582)
 
 
-##Branch Commands
+## Branch Commands
 
 Typing  `git branch`  will show you all the branches created in this repository. If you see a branch name with an asterisk next to it (*) it means that  it’s the current active branch and is the one the head is currently pointing to.
 
@@ -164,7 +164,7 @@ One thing to note is that checkout is a very versatile command that can be used 
 ```
  git branch switch 'branch-name'
 ```
-##Merging branches
+## Merging branches
 
 When you use the command  `git log`  to view your commits after you create a new  branch, it will show you the commits made in the default branch prior to it, with the head pointing to the very last commit. If you make a new commit in that new branch, the pointer will move to it, meaning that it’s now ahead of the default branch by 1, and it is a commit that the default branch does not have.
 
@@ -193,7 +193,7 @@ To do a merge, you simply switch to the branch that's behind, and then type `git
  git merge 'branch-name'
 ```
 
-##Conflicts
+## Conflicts
 
 Conflicts are a very common occurence in merging branches. They mainly happen when a file is shared between two branches, and both of them have commits that contain different edits to the same file.
 When Git detects such an occurence. It stops merging and lets you know that conflict has occured, leaving it up to you to solve it.You can then view these conflicts by opening the file that caused them.
