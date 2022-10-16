@@ -2,7 +2,7 @@
 
 ## Git Documentation
 
-###Structure
+### Structure
 
 
 ### Git Commands
