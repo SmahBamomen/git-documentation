@@ -127,4 +127,87 @@ git clone <Repository URL>
 ## Branches
 
 
+##Branch Basics
+
+One feature that is provided by git is the ability to create branches in your repository be it local or remote. Branches are named pointers that point to the last commit and can also show you commits prior to it. After your very first commit, a default branch, usually named “main”, will be created.
+
+If a new branch is created after commits were made in a default branch, this new commit will contain the commits of this default branch in its history and the head will point to it as long as it’s the branch that’s currently active.
+
+
+
+![](https://wac-cdn.atlassian.com/dam/jcr:a905ddfd-973a-452a-a4ae-f1dd65430027/01%20Git%20branch.svg?cdnVersion=582)
+
+
+##Branch Commands
+
+Typing  `git branch`  will show you all the branches created in this repository. If you see a branch name with an asterisk next to it (*) it means that  it’s the current active branch and is the one the head is currently pointing to.
+
+You can also use this command to create and delete branches. For creating new branches you just need to add the new branch’s name .
+
+```
+ git branch 'new-branch-name'
+```
+If there is a branch that you want to delete, you just to need to add “-d” before the name of the branch that you want to delete.
+```
+ git branch -d   'branch-name'
+```
+
+One thing to keep in mind when adding a new branch is that you will still be on your default or currently active branch, and so you will need to manually switch to the new one before doing any new commits that you might want to do. 
+
+You do this by typing checkout, followed by the name of your branch.
+```
+ git branch checkout 'branch-name'
+```
+
+One thing to note is that checkout is a very versatile command that can be used for different purposes other than switching branches. If you are in need of a command specifically for switching branches, you can you switch
+
+```
+ git branch switch 'branch-name'
+```
+##Merging branches
+
+When you use the command  `git log`  to view your commits after you create a new  branch, it will show you the commits made in the default branch prior to it, with the head pointing to the very last commit. If you make a new commit in that new branch, the pointer will move to it, meaning that it’s now ahead of the default branch by 1, and it is a commit that the default branch does not have.
+
+Say you want to bring the default branch to point to this new commit, you can accomplish this by merging. There are two common ways to do this:
+
+* Fast Forward
+* Three-way
+
+Fast-forward is the more straight-forward one of the two,and it simply involves moving the history of one branch to the other to basically bring it up to speed with the target branch. This occurs if the current branch has not strayed too far from the target branch and made its own separate commits.
+
+
+
+![](https://wac-cdn.atlassian.com/dam/jcr:d90f2536-7951-4e5e-ab79-f45a502fb4c8/03-04%20Fast%20forward%20merge.svg?cdnVersion=582)
+
+
+
+However, if you have made commits in the current branch that have caused it to stray away form the target branch, this will cause three-way merging, where instead of moving one history to the other, it will combine the last two commits of each of the two branches  and connects them to a third one.
+
+
+![](https://wac-cdn.atlassian.com/dam/jcr:91aece4a-8fa0-4fc3-bae9-69d51932f104/05-06%20Fast%20forward%20merge.svg?cdnVersion=582)
+
+
+To do a merge, you simply switch to the branch that's behind, and then type `git merge`  followed by the name of the target branch.
+
+```
+ git merge 'branch-name'
+```
+
+##Conflicts
+
+Conflicts are a very common occurence in merging branches. They mainly happen when a file is shared between two branches, and both of them have commits that contain different edits to the same file.
+When Git detects such an occurence. It stops merging and lets you know that conflict has occured, leaving it up to you to solve it.You can then view these conflicts by opening the file that caused them.
+
+When you open the file, it will contain symbols added by Git that indicate which parts caused the conflict. `<<<<` tell you the source branch of the edit , while `====` will indicate the part the was edited. From there, you as the merger will have to decide which part to keep to solve this conflict.
+```
+<<<<<<< main
+this text was added in branch main
+=======
+this text was added in branch secondary_branch
+>>>>>>> secondary_branch;
+```
+
+After solving the conflicts, you will then be free to add it and commit it like any normal file.
+
+
 
