@@ -64,6 +64,7 @@ Some advanced Git operations are:
 
 Let me first give you a brief idea about how these operations work with the Git repositories. Take a look at the architecture of Git below:
 
+<img width="516" alt="working" src="https://user-images.githubusercontent.com/71218097/196103021-c18f3b96-7b7b-4c1b-bb53-b6b5c81a15ce.png">
 
 
 If you understand the above diagram well and good, but if you don’t, you need not worry, I will be explaining these operations in this Git Tutorial one by one. Let us begin with the basic operations.
