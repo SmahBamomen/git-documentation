@@ -307,14 +307,14 @@ After solving the conflicts, you will then be free to add it and commit it like 
 ###### After enter the commit new file button the repostorty look like the picture below
  ![repostorty preview ](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/repo%20prev.png?alt=media&token=d3067611-c6e4-4da5-80c9-7c91edb7b880 "repostorty preview")
  
-######if you want to edit file click on the edit button on the right side
+###### if you want to edit file click on the edit button on the right side
 ![edit file](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/edit%20file.png?alt=media&token=1df1dae4-c2ea-44ba-8a62-a378a330b502 "edit file")
 ### Building branches in github
   ![branch]( https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/branch.png?alt=media&token=2fcc3ee3-2153-441d-86f3-df92bd67e7f0 "branch")
 ###### On the right side click on the new branch button to create new branch   
 
   ![new branch](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/new%20branch.png?alt=media&token=5f607e0f-151e-4578-b0f2-85a8ebfdfa0e "new branch")
-######Enter the branch name
+###### Enter the branch name
 ![branch name](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/Screen%20Shot%201444-03-21%20at%209.20.27%20AM.png?alt=media&token=e61b04ba-ee28-4efd-aec9-f73f4625073b "branch name")
 
 ###### All branch's and active branch
