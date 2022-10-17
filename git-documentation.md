@@ -328,5 +328,5 @@ After solving the conflicts, you will then be free to add it and commit it like 
 ###### Click on add people button to search for Github users
 ![add people](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/Screen%20Shot%201444-03-20%20at%201.52.37%20PM.png?alt=media&token=226e5505-aa10-4a11-9190-6dc077c320af "add people")
 ###### Add them by clicking “Add Collaborator”
-![add a collaborator](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/Screen%20Shot%201444-03-20%20at%201.52.44%20PM.png?alt=media&token=da96c29e-10c0-4ae0-a327-0fcd12bce049"add a collaborator")
+![add a collaborator](https://firebasestorage.googleapis.com/v0/b/todolist-a8a37.appspot.com/o/Screen%20Shot%201444-03-20%20at%201.52.44%20PM.png?alt=media&token=da96c29e-10c0-4ae0-a327-0fcd12bce049 "add a collaborator")
 
