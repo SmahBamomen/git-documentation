@@ -5,11 +5,10 @@
 
 ## Table Of Content 
 - [Structure](#Structure)
-  * [1.1 Purpose](#11-purpose)
-  * [1.2 Scope](#12-scope)
-  * [1.3 Acronyms](#13-acronyms)
-  * [1.4 References](#14-references)
-    + [1.4.1 Internal References](#141-internal-references)
+  * [What is Git](#What-is-Git)
+  * [What is GitHub](#What-is-GitHub)
+  * [What is repository](#What-is-repository)
+  * [Features of Git](#Features-of-Git)
 - [Git Commandse](#Git-Commands)
   * [Git Init](#Git-Init)
   * [Git Status](#Git-Status)
@@ -19,8 +18,18 @@
   * [Git Push](#Git-Push)
   * [Git Pull](#Git-Pull)
   * [Git Clone](#Git-Clone)
- - [Branches](#Branches)
-  
+- [Branches](#Branches)
+  * [Branch Basics](#Branch-Basics)
+  * [Branch Commands](#Branch-Commands)
+  * [Merging branches](#Merging-branches)
+  * [Conflicts](#Conflicts)
+- [GitHub Documentaion](#GitHub-Documentaion)
+  * [Building repositories from GitHub](#Building-repositories-from-GitHub)
+  * [Building files in github](#Building-files-in-github)
+  * [What is repository](#What-is-repository)
+  * [Collaborating](#Collaborating)
+
+
 <a name="Structure"/>
 <a name="Git-Commands"/>
 <a name="Git-Clone"/>
@@ -32,8 +41,20 @@
 <a name="Git-Push"/>
 <a name="Git-Pull"/>
 <a name="Branches"/>
-<a name="Branches"/>
-<a name="Branches"/>
+<a name="What-is-GitHub"/>
+<a name="What-is-Git"/>
+<a name="What-is-repository"/>
+<a name="Features-of-Git"/>
+<a name="Branch-Basics"/>
+<a name="Branch-Commands"/>
+<a name="Merging-branches"/>
+<a name="Conflicts"/>
+<a name="GitHub-Documentaion"/>
+<a name="Building-repositories-from-GitHub"/>
+<a name="What-is-repository"/>
+<a name="Collaborating"/>
+<a name="Building-files-in-github"/>
+
 
 
 
